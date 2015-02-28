@@ -1,0 +1,1360 @@
+: 1423197718:0;clear
+: 1423198912:0;archey
+: 1423199006:0;screen
+: 1423199302:0;gnome-shell --replace
+: 1423199611:0;pacaur -S awoken-icons
+: 1423199730:0;/etc/pacman.d/pacman.conf
+: 1423199770:0;sudo nano /etc/pacman.conf
+: 1423199855:0;pacaur -S awoken-icons
+: 1423200294:0;clear
+: 1423200510:0;pacaur -S numix-circle-icon-theme-git
+: 1423200790:0;pacaur -S gnome-screenshot
+: 1423201239:0;pacaur -S xcalib
+: 1423201359:0;sudo cp /run/media/joe/Mars/Library/ColorSync/Profiles/Displays/Color\ LCD-00000610-0000-9C5F-0000-0000042717C0.icc colorprofiles
+: 1423201387:0;sudo chown joe colorprofiles
+: 1423201404:0;mv colorprofiles colorprofiles.icc
+: 1423201412:0;mkdir -p colorprofiles
+: 1423201432:0;xcalib colorprofiles/colorprofiles.icc
+: 1423201527:0;sudo nano /etc/gdm/Init/Default
+: 1423201628:0;xcalib colorprofiles/colorprofiles.icc
+: 1423201678:0;colord
+: 1423201681:0;d
+: 1423201685:0;q
+: 1423201686:0;quit
+: 1423201687:0;exit
+: 1423201808:0;cp colorprofiles/colorprofiles.icc /usr/share/color/icc/colord/MacBookImported.icc
+: 1423201813:0;sudo cp colorprofiles/colorprofiles.icc /usr/share/color/icc/colord/MacBookImported.icc
+: 1423201946:0;dclear
+: 1423201948:0;clear
+: 1423201965:0;quit
+: 1423201976:0;clear
+: 1423201993:0;xcalib colorprofiles/colorprofiles.icc
+: 1423202064:0;gnome-session-properties
+: 1423202076:0;pacaur -S gnome-session-properties
+: 1423202198:0;gnome-session-properties
+: 1423202274:0;clear
+: 1423202344:0;xcalib colorprofiles/colorprofiles.icc
+: 1423202694:0;OAclear
+: 1423202695:0;clear
+: 1423202698:0;xcalib colorprofiles/colorprofiles.icc
+: 1423202795:0;pacaur -S intel_ucode
+: 1423202806:0;pacaur -S intel-ucode
+: 1423202843:0;sudo nano /boot/loader/entries/arch.conf
+: 1423202876:0;reboot
+: 1423202991:0;dmesg | grep microcode
+: 1423243481:0;swapon -s
+: 1423243487:0;free -h
+: 1423245160:0;pacaur -Rns gummiboot
+: 1423245363:0;pacaur -S grub
+: 1423245434:0;parted /dev/sda print
+: 1423245455:0;sudo parted /dev/sda print
+: 1423245517:0;pacaur -S efibootmgr
+: 1423245602:0;grub-install --target=x86_64-efi --efi-director/boot --bootloader-id=grub_uefi --recheck
+: 1423245651:0;grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub_uefi --recheck
+: 1423245735:0;sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub_uefi --recheck
+: 1423245808:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1423251976:0;efibootmgr
+: 1423257456:0;pacaur -Ss elinks
+: 1423257471:0;pacaur -S elinks
+: 1423257500:0;elinks
+: 1423258131:0;pacaur -Syu
+: 1423258157:0;clear
+: 1423262371:0;archey
+: 1423264536:0;pacaur -Rns xscreensaver
+: 1423264554:0;pacman -Q xscreensaver
+: 1423264694:0;sudo nano /etc/X11/xorg.conf.d
+: 1423264764:0;sudo nano /etc/X11/xorg.conf
+: 1423266758:0;pacaur -Rns archey
+: 1423266773:0;pacaur -S archey3-git
+: 1423266796:0;archey3
+: 1423266906:0;export EDITOR=nano
+: 1423266908:0;archey3
+: 1423266977:0;nano .zshrc
+: 1423267355:0;vim .zshrc
+: 1423267360:0;vi .zshrc
+: 1423267467:0;vim
+: 1423267472:0;pacaur -S vim
+: 1423267496:0;vim .zshrc
+: 1423267603:0;exit
+: 1423267611:0;vim
+: 1423267624:0;vim .zshrc
+: 1423267663:0;exit
+: 1423267700:0;archey3
+: 1423271212:0;pacaur -Ss inkscape
+: 1423271233:0;pacaur -S inkscape
+: 1423275834:0;pacaur -S gimp
+: 1423276212:0;pacaur -S splashtop-streamer
+: 1423276567:0;splashtop-streamer
+: 1423276917:0;pacaur -S openssl
+: 1423276926:0;splashtop-streamer
+: 1423276965:0;cd /usr/lib/
+: 1423276967:0;ls
+: 1423276980:0;splashtop-streamer
+: 1423277191:0;ln -s /usr/lib/libcurl.so /usr/lib/x86_64-linux-gnu/libcurl.so
+: 1423277310:0;mkdir /usr/lib/x86_64-linux-gnu
+: 1423277316:0;sudo mkdir /usr/lib/x86_64-linux-gnu
+: 1423277322:0;ln -s /usr/lib/libcurl.so /usr/lib/x86_64-linux-gnu/libcurl.so
+: 1423277326:0;sudo ln -s /usr/lib/libcurl.so /usr/lib/x86_64-linux-gnu/libcurl.so
+: 1423277333:0;splashtop-streamer
+: 1423284735:0;clear
+: 1423284744:0;pacaur -S steam
+: 1423285459:0;pacaur -Ss hacker news
+: 1423285477:0;pacaur -Ss pyhn
+: 1423285482:0;pacaur -S pyhn
+: 1423285561:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1423322331:0;pacaur -Rns gdm
+: 1423322372:0;ls
+: 1423322378:0;ls -a
+: 1423322390:0;vim .xinitrc
+: 1423322471:0;pacaur -S pavucontrol
+: 1423322676:0;exit
+: 1423322684:0;startx
+: 1423325521:0;pacaur -S nfs-utils
+: 1423325601:0;sc-start npcbind
+: 1423325609:0;sc-start rpcbind
+: 1423325618:0;sc-start nfs-client
+: 1423325627:0;sc-start nfs-client.target
+: 1423325640:0;showmount -e 192.168.0.8
+: 1423325869:0;mount -t nfs 192.168.0.8/srv/nsfs4/med/
+: 1423325871:0;clear
+: 1423325925:0;showmount -e 192.168.0.8
+: 1423325980:0;sudo mount -t nfs 192.168.0.8 /srv/nfs4/media /run/media/joe/media
+: 1423325990:0;clear
+: 1423326019:0;sudo mount -t nfs 192.168.0.8: /srv/nfs4/media /run/media/joe/media
+: 1423326026:0;clear
+: 1423326040:0;sudo mount -t nfs 192.168.0.8:/srv/nfs4/media /run/media/joe/media
+: 1423326071:0;man mkdir
+: 1423326096:0;mkdir -p /run/media/joe/pluto
+: 1423326101:0;sudo mkdir -p /run/media/joe/pluto
+: 1423326106:0;sudo mount -t nfs 192.168.0.8:/srv/nfs4/media /run/media/joe/pluto
+: 1423326185:0;clear
+: 1423326194:0;sudo nano /etc/fstab
+: 1423326663:0;sudo systemctl enable systemd-networkd-wait-online.service
+: 1423326929:0;sudo nano /boot/loader/loader.conf
+: 1423326965:0;startx
+: 1423327289:0;clear
+: 1423327311:0;sudo nano /etc/pam.d/login
+: 1423327369:0;logout
+: 1423327447:0;exit
+: 1423327454:0;startx
+: 1423330773:0;pacaur -S telegram-git
+: 1423330975:0;telegram
+: 1423331001:0;telegram-cli
+: 1423331107:0;pacaur -Rns telegram-git
+: 1423331133:0;pacaur -S telegram-bin
+: 1423331251:0;/bin/telegram 
+: 1423334809:0;pacaur -S i3
+: 1423336173:0;vimtutor
+: 1423340010:0;sudo vim /etc/fstab
+: 1423340076:0;clear
+: 1423340136:0;showmount -e 192.168.0.8
+: 1423340151:0;vim /etc/fstab
+: 1423340185:0;sudo vim /etc/fstab
+: 1423340259:0;sudo nano /etc/fstab
+: 1423340379:0;pacaur -S sublime-text-dev
+: 1423340565:0;reboot
+: 1423340686:0;cd /run/media/joe/pluto
+: 1423340687:0;ls
+: 1423340690:0;startx
+: 1423344985:0;systemd-analyze
+: 1423345017:0;pacaur -Syu
+: 1423347371:0;startx
+: 1423349166:0;sudo nano /etc/mbpfan.conf
+: 1423354777:0;clear
+: 1423354791:0;sudo nano /usr/share/applications/sublime_text_3.desktop
+: 1423355021:0;subl3 LANG=en_US.UTF-8 sublime_text
+: 1423355163:0;startx
+: 1423355323:0;exit
+: 1423355429:0;locale
+: 1423355450:0;clear
+: 1423355467:0;sudo nano /etc/locale.gen
+: 1423355505:0;locale-gen
+: 1423355509:0;sudo locale-gen
+: 1423355521:0;sudo nano /etc/locale.conf
+: 1423355549:0;echo LANG=en_US.UTF-8 > /etc/locale.conf
+: 1423355555:0;echo LANG=en_US.UTF-8 > sudo /etc/locale.conf
+: 1423355583:0;echo LANG=en_GB.UTF-8 > sudo /etc/locale.conf
+: 1423355587:0;sudo nano /etc/locale.conf
+: 1423355613:0;export LANG=en_US.UTF-8
+: 1423355616:0;locale
+: 1423355627:0;clear
+: 1423355637:0;nano /etc/locale.gen
+: 1423355649:0;sudo nano /etc/locale.gen
+: 1423355659:0;locale-gen
+: 1423355664:0;sudo locale-gen
+: 1423355671:0;sudo nano /etc/locale.gen
+: 1423355692:0;pacaur -Rns locale
+: 1423355726:0;locale -a
+: 1423355729:0;sudo nano /etc/locale.gen
+: 1423355785:0;locale -a
+: 1423355805:0;sudo rm /etc/locale.gen
+: 1423355807:0;locale -a
+: 1423355820:0;locale
+: 1423355894:0;pacaur -S glibc
+: 1423355904:0;sudo nano /etc/locale.gen
+: 1423355926:0;locale-gen
+: 1423355931:0;sudo locale-gen
+: 1423355943:0;locale
+: 1423356057:0;reboot
+: 1423356124:0;startx
+: 1423356164:0;sudo nano /etc/mbpfan.conf
+: 1423356195:0;sudo systemctl reload mbpfan.service
+: 1423357916:0;pacaur -S powertop
+: 1423358034:0;powertop --html=powerreport.html
+: 1423358037:0;sudo powertop --html=powerreport.html
+: 1423359533:0;clear
+: 1423359537:0;archey3
+: 1423419275:0;startx
+: 1423421946:0;sudo vim /etc/mbpfan.conf
+: 1423422013:0;sc-reload mbpfan.service
+: 1423422554:0;startx
+: 1423424384:0;clear
+: 1423424391:0;pacaur -S cdm-git
+: 1423424422:0;clear
+: 1423424429:0;sudo vim /etc/cdmrc
+: 1423424641:0;reboot
+: 1423424735:0;startx
+: 1423424786:0;clear
+: 1423424822:0;pacaur -Rns cdm-git
+: 1423424960:0;sudo vim /boot/loader/entries/arch.conf
+: 1423442043:0;startx
+: 1423514911:0;pacaur -S gdm
+: 1423518027:0;sc-enable gdm.service
+: 1423518044:0;sc-start gdm.service
+: 1423519056:0;pacaur -Syu
+: 1423519300:0;y
+: 1423519320:0;pacaur -S gnome-extra
+: 1423519395:0;sudo mv Downloads/.ssh/  
+: 1423519402:0;sudo mv Downloads/.ssh/  /home/joe
+: 1423519452:0;pacaur -S openssh
+: 1423519466:0;ssh mediaServer
+: 1423526097:0;clear
+: 1423526104:0;pacaur -S gst-libav
+: 1423583333:0;wifi-menu
+: 1423583337:0;sudo wifi-menu
+: 1423583474:0;sudo modprobe wl
+: 1423583494:0;sudo modprobe lib
+: 1423583501:0;modprobe wl
+: 1423583506:0;sudo modprobe wl
+: 1423583596:0;systemctl status systemd-modules-load.service
+: 1423583718:0;sudo modprobe wl
+: 1423583819:0;ip link
+: 1423583980:0;pacaur -S broadcom-wl
+: 1423584053:0;	sudo modprobe wl
+: 1423584070:0;	sudo modprobe lib80211
+: 1423584075:0;sudo wifi-menu
+: 1423587654:0;clear
+: 1423587691:0;sudo nano /etc/modprobe.d/audio_powersave.conf
+: 1423587753:0;sudo nano /etc/sysctl.d/dirty.conf
+: 1423587790:0;sudo nano /etc/sysctl.d/laptop.conf
+: 1423587820:0;sudo nano /etc/udev/rules.d/70-disable_wol.rules
+: 1423587839:0;sudo nano /etc/udev/rules.d/70-wifi-powersave.rules
+: 1423587912:0;lspci -vv | grep ASPM.*abled\;
+: 1423595786:0;pacaur -S shutter
+: 1423596021:0;shutter
+: 1423597150:0;clear
+: 1423597157:0;pacaur -Rns shutter
+: 1423601178:0;clear
+: 1423601183:0;ssh mediaServer$'\r'
+: 1423601186:0;ssh mediaServer
+: 1423601863:0;ssh -vT  mediaServer
+: 1423601928:0;ssh-add -l
+: 1423601951:0;ssh-add .ssh/mediaServer/id_rsa
+: 1423601954:0;ssh -vT  mediaServer
+: 1423601958:0;ssh-add -l
+: 1423602023:0;sudo chmod 600 .ssh
+: 1423602028:0;ssh -vT  mediaServer
+: 1423602193:0;ssh mediaServer
+: 1423664366:0;pacuar -S gparted
+: 1423664372:0;pacaur -S gparted
+: 1423673272:0;pacaur -S lib32-gtk-engines
+: 1423673454:0;pacaur -S gtk-engines
+: 1423673461:0;pacaur -S lib32-gtk-engines
+: 1423673535:0;pacaur -Syu
+: 1423673670:0;pacaur -S lib32-gtk-engines
+: 1423673813:0;pacaur -S reflector
+: 1423673852:0;sudo reflector --verbose -l 200 -p http --sort rate --save /etc/pacman.d/mirrorlist
+: 1423673944:0;pacaur -S lib32-gtk-engines
+: 1423674069:0;clear
+: 1423674073:0;cd builds
+: 1423674101:0;curl -LO https://aur.archlinux.org/packages/li/lib32-gtk-engines/lib32-gtk-engines.tar.gz
+: 1423674122:0;tar -xvf lib32-gtk-engines.tar.gz
+: 1423674127:0;cd lib32-gtk-engines
+: 1423674137:0;makepkg -s
+: 1423674237:0;pacaur -S gtk-engines
+: 1423674301:0;makepkg -s
+: 1423674773:0;cd ../
+: 1423674774:0;ls
+: 1423674789:0;cd ~
+: 1423674793:0;cd builds
+: 1423674800:0;tar -xvf lib32-gtk-engines.tar.gz
+: 1423674846:0;makepkg -s
+: 1423674854:0;cd lib32-gtk-engines
+: 1423674856:0;makepkg -s
+: 1423675132:0;cd ..
+: 1423675135:0;tar -xvf lib32-gtk-engines.tar.gz
+: 1423675166:0;cd lib32-gtk-engines
+: 1423675170:0;makepkg -s
+: 1423675356:0;md5
+: 1423675417:0;md5sum gtk-engines-2.21.0.tar.gz
+: 1423675434:0;makepkg -s
+: 1423675961:0;tar -xvf gtk-engines-2.21.0-2-x86_64.pkg.tar.xz
+: 1423676158:0;makepkg -s
+: 1423676227:0;tar -xvf gtk-engines-2.21.0-2-x86_64.pkg.tar.xz
+: 1423676304:0;makepkg -s
+: 1423679595:0;pacaur -S deluge
+: 1423679683:0;deluge
+: 1423679693:0;exit
+: 1423679926:0;lsblk
+: 1423679978:0;umount /dev/sdb
+: 1423679981:0;sudo umount /dev/sdb
+: 1423679986:0;sudo umount /dev/sdb1
+: 1423680111:0;clear
+: 1423680128:0;cd Downloads/Torrents
+: 1423680138:0;gpg --verify archlinux-2015.02.01-dual.iso.sig
+: 1423680188:0;gpg --recv-keys
+: 1423680190:0;gpg --verify archlinux-2015.02.01-dual.iso.sig
+: 1423680216:0;pacman-key -v archlinux-2015.02.01-dual.iso.sig
+: 1423680243:0;clear
+: 1423680285:0;dd bs=4M if=archlinux-2015.02.01-dual.iso of=/dev/sdb && sync
+: 1423680290:0;sudo dd bs=4M if=archlinux-2015.02.01-dual.iso of=/dev/sdb && sync
+: 1423680442:0;lsblk
+: 1423680526:0;umount /dev/sdb1
+: 1423680607:0;lsblk
+: 1423680621:0;mount /dev/sdb2
+: 1423680625:0;mount /dev/sdb1
+: 1423680628:0;mount /dev/sdb
+: 1423680637:0;sudo dd bs=4M if=archlinux-2015.02.01-dual.iso of=/dev/sdb && sync
+: 1423682799:0;clear
+: 1423682807:0;hdparm
+: 1423682813:0;pacaur -S hdparm
+: 1423682824:0;clear
+: 1423682837:0;sudo hdparm -t /dev/sdb1
+: 1423683122:0;sudo vim /etc/ssh/sshd_config
+: 1423683486:0;sc-start sshd.service
+: 1423683497:0;sc-enable sshd.service
+: 1423683986:0;journalctl -u sshd
+: 1423684179:0;ipconfig
+: 1423684195:0;ip
+: 1423684199:0;ip link list
+: 1423684276:0;ip link show dev eht0
+: 1423684281:0;ip link show dev ens5
+: 1423684298:0;ip addr show dev ens5
+: 1423684330:0;ip addr show dev wls4
+: 1423684382:0;ssh 192.168.0.1
+: 1423684397:0;ssh localhost
+: 1423684408:0;exit
+: 1423684420:0;ssh-copy-id -i ~/.ssh/mediaServer/id_rsa.pub localhosr
+: 1423684423:0;ssh-copy-id -i ~/.ssh/mediaServer/id_rsa.pub localhost
+: 1423684441:0;sudo ssh-copy-id -i ~/.ssh/mediaServer/id_rsa.pub localhost
+: 1423684469:0;sudo ssh-copy-id -i ~/.ssh/mediaServer/id_rsa.pub joe@localhost
+: 1423684482:0;ip
+: 1423684515:0;ip addr show
+: 1423684534:0;ssh 192.168.0.16
+: 1423684545:0;ssh 192.168.0.17
+: 1423684574:0;ssh-copy-id -i ~/.ssh/mediaServer/id_rsa.pub 192.168.0.16
+: 1423684615:0;ssh 192.168.0.16
+: 1423684644:0;ssh mediaServer
+: 1423684652:0;clear
+: 1423684722:0;ssh ArchMacBook
+: 1423684735:0;clear
+: 1423684746:0;sudo vim /etc/ssh/sshd_config
+: 1423684783:0;sc-reload sshd.service
+: 1423684793:0;ssh 192.168.0.16
+: 1423684798:0;ssh ArchMacBook
+: 1423684802:0;exit
+: 1423684803:0;clear
+: 1423685079:0;journalctl -u sshd.service
+: 1423685100:0;clear
+: 1423686341:0;pacaur -Syi
+: 1423686343:0;pacaur -Syu
+: 1423686560:0;telnet towel.blinkenlights.nl
+: 1423686642:0;cowsau I Love nix
+: 1423686646:0;cowsay I Love nix
+: 1423686659:0;fortune | cowsay
+: 1423686686:0;cmatrix
+: 1423686729:0;pacaur -S cmatrix
+: 1423686740:0;cmatrix
+: 1423687106:0;clear
+: 1423708896:0;mkdir Documents/SublimeProjects
+: 1423708966:0;cd Documents/SublimeProjects
+: 1423708982:0;git clone gitHub/datfatcat.com.git
+: 1423709016:0;git clone git@gitHub/datfatcat.com.git
+: 1423709055:0;git clone git@gitHub:datfatcat.com.git
+: 1423709100:0;chmod 600 ~/.ssh/gitHub/id_rsa
+: 1423709102:0;git clone git@gitHub:datfatcat.com.git
+: 1423709126:0;git clone git@gitHub:joemblair/datfatcat.com.git
+: 1423709409:0;pacaur -S npm
+: 1423709420:0;pacaur -S nodejs
+: 1423709457:0;npm install -g yo bower grunt-cli gulp
+: 1423709464:0;sudo npm install -g yo bower grunt-cli gulp
+: 1423709553:0;cd datfatcat.com
+: 1423709567:0;bower install
+: 1423709605:0;grunt serve
+: 1423709652:0;grunt
+: 1423709681:0;bower install
+: 1423709685:0;grunt
+: 1423709719:0;sudo npm install -g yo bower grunt-cli gulp
+: 1423709778:0;grunt
+: 1423709869:0;ls
+: 1423709888:0;grunt serve
+: 1423709893:0;grunt-cli
+: 1423709993:0;cd ..
+: 1423709995:0;grunt
+: 1423710000:0;cd datfatcat.com
+: 1423710004:0;grunt
+: 1423710025:0;sudo grunt
+: 1423710070:0;npm install
+: 1423710245:0;grunt serve
+: 1423710323:0;pacaur -S ruby-compass
+: 1423710573:0;grunt serve
+: 1423710614:0;	clear
+: 1423738579:0;sudo wifi-menu
+: 1423750311:0;gdm
+: 1423750476:0;clear
+: 1423750699:0;pacaur -S i3
+: 1423750721:0;i3
+: 1423750918:0;exit
+: 1423750957:0;reboot
+: 1423751148:0;exit
+: 1423751170:0;chrome
+: 1423751182:0;google-chroem
+: 1423751184:0;google-chromw
+: 1423751186:0;google-chrome
+: 1423751191:0;/bin/google-chrome-stable
+: 1423751233:0;logout
+: 1423751261:0;exit
+: 1423751307:0;htop
+: 1423751312:0;pacaur -S htop
+: 1423751322:0;htop
+: 1423751416:0;exit
+: 1423751546:0;pacaur -S dmenu
+: 1423751637:0;pacaur -S dmenu-xft
+: 1423751801:0;exit
+: 1423753805:0;clear
+: 1423757614:0;cmatrix
+: 1423757714:0;subl3 .i3/config 
+: 1423758172:0;clear
+: 1423759104:0;archey3
+: 1423761888:0;echo 0 > /sys/module/hid_apple/parameters/fnmode
+: 1423761893:0;sudo echo 0 > /sys/module/hid_apple/parameters/fnmode
+: 1423761904:0;echo 0 > sudo /sys/module/hid_apple/parameters/fnmode
+: 1423761973:0;echo 2 > sudo /sys/module/hid_apple/parameters/fnmode
+: 1423761986:0;nano /sys/module/hid_apple/parameters/fnmode
+: 1423761998:0;reboot
+: 1423762228:0;nano /sys/module/hid_apple/parameters/fnmode
+: 1423762269:0;sudo nano /sys/module/hid_apple/parameters/fnmode
+: 1423762369:0;sudo vim /etc/modprobe.d/hid_apple.conf
+: 1423763077:0;xprop
+: 1423763082:0;pacaur -S xprop
+: 1423763158:0;/bin/xprop
+: 1423763317:0;pacman -Qo /usr/bin/xprop
+: 1423763351:0;	pkgfile xprop
+: 1423763356:0;pacaur -S pkgfile
+: 1423763372:0;pkgfile --update
+: 1423763375:0;sudo pkgfile --update
+: 1423763385:0;pkgfile xprop
+: 1423763397:0;pacaur -S xorg-xprop
+: 1423763402:0;xprop
+: 1423764819:0;i3status
+: 1423764846:0;claer
+: 1423764848:0;clear
+: 1423765021:0;sudo cp /etc/i3status.conf .i3status.conf
+: 1423765038:0;ls
+: 1423765040:0;ls -la
+: 1423765070:0;sudo chown joe .i3status.conf
+: 1423765072:0;ls -la
+: 1423765095:0;sudo chown joe:joe .i3status.conf
+: 1423765143:0;clear
+: 1423765207:0;i3status
+: 1423765219:0;clear
+: 1423765270:0;%essid
+: 1423765284:0;ip link list
+: 1423765293:0;wls4
+: 1423765349:0;essid
+: 1423765353:0;%essid
+: 1423765360:0;$quality
+: 1423765369:0;%quality
+: 1423765543:0;ip
+: 1423765892:0;wext
+: 1423765908:0;iwconfig
+: 1423765957:0;i3status
+: 1423766059:0;clear
+: 1423766180:0;i3status
+: 1423766198:0;clear
+: 1423766556:0;i3status
+: 1423766983:0;sudo sensors
+: 1423767840:0;htop
+: 1423767984:0;i3status
+: 1423770495:0;clear
+: 1423770506:0;gnome-settings-daemon
+: 1423770552:0;i3clock
+: 1423770557:0;i3lock
+: 1423770616:0;pacaur -S i3-gnome
+: 1423771052:0;clear
+: 1423771148:0;htop
+: 1423773065:0;NetworkManager
+: 1423773068:0;sudo NetworkManager
+: 1423773084:0;htop
+: 1423773211:0;clear
+: 1423773329:0;reboot
+: 1423773502:0;pacaur -Rns gdm
+: 1423773588:0;xprop
+: 1423773648:0;clear
+: 1423773953:0;pacaur -S j4-dmenu-desktop
+: 1423774219:0;clear
+: 1423774221:0;archey3
+: 1423774306:0;i3-save-tree --workspace 1 > ~/.i3/workspace-1.json
+: 1423774318:0;i3-save-tree
+: 1423774414:0;pacaur -S perl
+: 1423774428:0;i3-save-tree
+: 1423774609:0;pacaur -S perl-anyevent-i3
+: 1423774618:0;i3-save-tree --workspace 1 > ~/.i3/workspace-1.json
+: 1423774644:0;pacaur -S perl-json-xs
+: 1423774648:0;i3-save-tree --workspace 1 > ~/.i3/workspace-1.json
+: 1423775549:0;clear
+: 1423775570:0;i3-msg "workspace 1; append_layout /home/joe/.i3/workspaceTest"
+: 1423776084:0;i3-msg "workspace 1; append_layout /home/joe/.i3/workspace-1.json"
+: 1423776561:0;i3-save-tree --workspace 2 > ~/.i3/workspace-2.json
+: 1423776696:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423776804:0;i3-save-tree --workspace 2 > ~/.i3/workspace-2.json
+: 1423776966:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423777489:0;reboot
+: 1423777563:0;sudo nano .xinitrc
+: 1423777583:0;startx
+: 1423777744:0;reboot
+: 1423777787:0;startx
+: 1423777901:0;reboot
+: 1423777940:0;startx
+: 1423778398:0;reboot
+: 1423778443:0;startx
+: 1423778606:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423778675:0;startx
+: 1423778685:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423778858:0;xprop
+: 1423778913:0;startx
+: 1423778950:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423778965:0;reboot
+: 1423779008:0;startx
+: 1423779059:0;i3-msg "workspace 2; append_layout /home/joe/.i3/workspace-2.json"
+: 1423779119:0;startx
+: 1423779314:0;htop
+: 1423779368:0;skype
+: 1423779374:0;htop
+: 1423779394:0;startx
+: 1423779491:0;htop
+: 1423779505:0;skype
+: 1423779506:0;htop
+: 1423779528:0;startx
+: 1423779571:0;i3-save-tree --workspace 2 > ~/.i3/workspace-22.json
+: 1423779677:0;htop
+: 1423779704:0;0~
+: 1423779709:0;startx
+: 1423779754:0;xprop
+: 1423779847:0;startx
+: 1423780125:0;htop
+: 1423780130:0;startx
+: 1423780157:0;htop
+: 1423780195:0;startx
+: 1423780258:0;htop
+: 1423780278:0;startx
+: 1423780581:0;xprop
+: 1423780737:0;startx
+: 1423781651:0;pacaur -S j4-make-config-git
+: 1423781700:0;cp .i3/config .i3/config.backup
+: 1423781712:0;j4-make-config
+: 1423781823:0;j4-make-config archlinux
+: 1423783985:0;clear
+: 1423783988:0;archey3
+: 1423784000:0;clear
+: 1423784003:0;archey3
+: 1423784044:0;cmatrix
+: 1423784344:0;j4-make-config archlinux
+: 1423784422:0;cp .i3/config .i3/config.base
+: 1423784425:0;j4-make-config archlinux
+: 1423784607:0;startx
+: 1423784704:0;j4-make-config debian
+: 1423784767:0;startx
+: 1423784821:0;j4-make-config solarized_mod
+: 1423784832:0;startx
+: 1423784911:0;j4-make-config wc8
+: 1423784917:0;startx
+: 1423785049:0;j4-make-config tango-dark
+: 1423785057:0;startx
+: 1423785176:0;j4-make-config archlinux
+: 1423785187:0;startx
+: 1423785750:0;gnome-session
+: 1423785772:0;nano .xinitrc
+: 1423785786:0;startx
+: 1423786235:0;nano .xinitrc
+: 1423786242:0;startx
+: 1423787063:0;clear
+: 1423787147:0;pacaur -S dot
+: 1423787150:0;clear
+: 1423787279:0;startx
+: 1423789262:0;cmatrix
+: 1423789321:0;clear
+: 1423789323:0;archey3
+: 1423789389:0;clear
+: 1423789394:0;archey3
+: 1423789401:0;exit
+: 1423789487:0;cmatrix
+: 1423789506:0;clear
+: 1423789509:0;archey3
+: 1423789663:0;exit
+: 1423789992:0;cmatrix
+: 1423790045:0;clear
+: 1423790047:0;archey3
+: 1423790180:0;gnome-settings-daemon
+: 1423790222:0;pkgfile gnome-settings-daemon
+: 1423790235:0;pacaur -S gnome-settings-daemon
+: 1423790253:0;gnome-settings-daemon
+: 1423790309:0;gnome-setting-daemon
+: 1423790313:0;gnome-settings-daemon
+: 1423790477:0;sudo cp /usr/share/themes/Numix .config
+: 1423790482:0;sudo cp -R /usr/share/themes/Numix .config
+: 1423790550:0;sudo chown -R joe:joe .config/Numix
+: 1423790599:0;nano .config/.gtkrc-2.0
+: 1423791132:0;startx
+: 1423791152:0;nano .config/.gtkrc-2.0
+: 1423791169:0;startx
+: 1423791208:0;nano .config/.gtkrc-2.0
+: 1423791255:0;startx
+: 1423791275:0;nano .config/.gtkrc-2.0
+: 1423791302:0;startx
+: 1423791349:0;htop
+: 1423791435:0;startx
+: 1423791604:0;mv .config/.gtkrc-2.0 ~
+: 1423791606:0;ls
+: 1423791609:0;ls -a
+: 1423791691:0;subl3 .gtkrc-2.0
+: 1423791811:0;startx
+: 1423791912:0;subl .config/gtk-3.0/settings.ini
+: 1423791916:0;subl3 .config/gtk-3.0/settings.ini
+: 1423791952:0;startx
+: 1423793901:0;cmatrix
+: 1423794269:0;clear
+: 1423794533:0;feh
+: 1423794559:0;feh --bg-scale Pictures/Wallpapers/Solar.png
+: 1423794632:0;startx
+: 1423795032:0;cmatrix
+: 1423795168:0;clear
+: 1423796248:0;pacaur -S ttf-google-fonts-hg 
+: 1423796275:0;pacaur -S ttf-google-fonts-git
+: 1423797148:0;pacaur -S powerdown-git
+: 1423797225:0;supspend-to-disk
+: 1423797229:0;powerdown
+: 1423797234:0;sudo powerdown
+: 1423797264:0;sudo powerdown suspend-to-disk
+: 1423797400:0;startx
+: 1423797438:0;pactl
+: 1423797569:0;pacaur -S xorg-xbacklight
+: 1423797652:0;playerctl
+: 1423797668:0;pkgfile playerctl
+: 1423797749:0;pacaur -S playerctl
+: 1423798287:0;nano /boot/loader/entries/arch.conf
+: 1423798345:0;pacaur -S acpid
+: 1423798364:0;sc-enable acpid.service
+: 1423798401:0;journalctl -f
+: 1423798436:0;acpi_listen
+: 1423798451:0;netcat -U /var/run/acpid.socket
+: 1423798454:0;acpi_listen
+: 1423798652:0;sc-start acpid.service
+: 1423798655:0;acpi_listen
+: 1423798674:0;journalctl -f
+: 1423798935:0;sudo nano /etc/acpi/handler.sh
+: 1423798966:0;acpi_listen
+: 1423799159:0;sc-reload acpid.service
+: 1423799165:0;sc-restart acpid.service
+: 1423799171:0;acpi_listen
+: 1423799383:0;cat /proc/acpi/button/lid/LID0/state 
+: 1423799404:0;journalctl -f
+: 1423799459:0;cat /proc/acpi/button/lid/LID0/state 
+: 1423799466:0;sudo nano /etc/acpi/handler.sh
+: 1423799518:0;cat /proc/acpi/button/lid/LID0/state 
+: 1423799581:0;sudo nano /etc/acpi/handler.sh
+: 1423799601:0;reboor
+: 1423799603:0;reboot
+: 1423799659:0;startx
+: 1423799689:0;acpi_listen
+: 1423799704:0;sudo nano /etc/acpi/handler.sh
+: 1423799792:0;systemd-suspend
+: 1423799802:0;systemctl supsend
+: 1423799883:0;sudo nano /etc/systemd/logind.conf
+: 1423800064:0;sc-restart systemd-logind.service
+: 1423800078:0;startx
+: 1423800150:0;sudo nano /etc/systemd/logind.conf
+: 1423800365:0;sc-enable suspend@joe
+: 1423800368:0;sc-enable suspend@
+: 1423800371:0;sc-enable suspend@user
+: 1423800388:0;sc-enable suspen
+: 1423800392:0;sc-enable suspend.service
+: 1423800446:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423800535:0;sc-enable suspend@joe
+: 1423800576:0;sc-start suspend@joe
+: 1423800582:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423800596:0;sc-start suspend@joe
+: 1423800603:0;journalctl 
+: 1423800613:0;clear
+: 1423800669:0;sc-restart systemd-logind.service
+: 1423800676:0;startx
+: 1423800758:0;sudo nano /etc/systemd/logind.conf
+: 1423800785:0;sc-restart systemd-logind.service
+: 1423800791:0;startx
+: 1423800984:0;sc-start suspend@joe
+: 1423800992:0;i3lock
+: 1423801016:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423801029:0;sc-start suspend@joe
+: 1423801041:0;sc-start suspend@joe.service
+: 1423801109:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423801166:0;sc-start suspend@joe.service
+: 1423801184:0;systemctl status suspend@joe.service
+: 1423801195:0;systemctl daemon-reload
+: 1423801200:0;sudo systemctl daemon-reload
+: 1423801205:0;sc-start suspend@joe.service
+: 1423801223:0;sc-start suspend@.service
+: 1423801227:0;sc-start suspend@joe.service
+: 1423801245:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423801269:0;systemctl daemon-reload
+: 1423801273:0;sudo systemctl daemon-reload
+: 1423801277:0;sc-start suspend@joe.service
+: 1423801343:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423801354:0;sudo systemctl daemon-reload
+: 1423801356:0;sc-start suspend@joe.service
+: 1423801427:0;man i3lock
+: 1423801441:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423801492:0;sudo systemctl daemon-reload
+: 1423801521:0;man i3lock
+: 1423801636:0;i3lock
+: 1423801652:0;man i3lock
+: 1423801671:0;i3lock -i Pictures/Wallpapers/Solar.png
+: 1423803038:0;startx
+: 1423805466:0;pacman -Rns $(pacman -Qtdq)
+: 1423805474:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1423805812:0;clear
+: 1423847887:0;startx
+: 1423850864:0;sudo nano /etc/systemd/system/suspend@.service
+: 1423850888:0;sudo nano /etc/systemd/logind.conf
+: 1423850952:0;pacaur -S pm-utils
+: 1423851018:0;sudo nano /etc/acpi/handler.sh
+: 1423851058:0;sc-restart acpid.service
+: 1423851075:0;sc-restart systemd-logind.service
+: 1423851080:0;startx
+: 1423851112:0;sudo nano /etc/acpi/handler.sh
+: 1423851148:0;sc-restart acpid.service
+: 1423851180:0;sudo nano /etc/acpi/handler.sh
+: 1423851352:0;sc-restart acpid.service
+: 1423851458:0;cmatrix
+: 1423858243:0;sudo nano /etc/systemd/logind.conf
+: 1423862291:0;pacaur -s lib32-gtk-engines
+: 1423862297:0;pacaur -S lib32-gtk-engines
+: 1423862456:0;export GTK2_RC_FILES="/etc/gtk-2.0/gtkrc:$HOME/.gtkrc-2.0"
+: 1423862759:0;pacaur -S qtcurve
+: 1423863004:0;qtcurve
+: 1423863157:0;pacaur -Rns qtcurve
+: 1423865921:0;time
+: 1423865997:0;j4-dmenu-desktop --help
+: 1423866006:0;man j4-dmenu-desktop
+: 1423867421:0;journalctl -f
+: 1423867434:0;acpi_listen
+: 1423867481:0;cat /proc/acpi/button/lid/LID0/state 
+: 1423867499:0;sc-restart acpid.service 
+: 1423867506:0;acpi_listen
+: 1423867531:0;systemctl
+: 1423867639:0;swapon /dev/sda5
+: 1423867642:0;sudo swapon /dev/sda5
+: 1423867648:0;sudo swapof /dev/sda5
+: 1423867651:0;sudo swapoff /dev/sda5
+: 1423867654:0;sudo swapon /dev/sda5
+: 1423867658:0;systemctl
+: 1423867681:0;sudo nano /etc/fstab
+: 1423867909:0;acpi_listen
+: 1423868062:0;reboot
+: 1423868140:0;acpi_listen
+: 1423868272:0;startx
+: 1423868427:0;acpi_listen
+: 1423874116:0;sc-restart acpid.service
+: 1423874120:0;acpi_listen
+: 1423874330:0;journalctl -f
+: 1423874416:0;sudo journalctl /usr/bin/acpid 
+: 1423874556:0;acpid -d
+: 1423874566:0;sc-stop acpid.service
+: 1423874568:0;acpid -d
+: 1423874576:0;sc-start acpid.service
+: 1423874590:0;acpi_listen
+: 1423874637:0;sudo journalctl /usr/bin/acpid 
+: 1423874748:0;tail -f /var/log/pm-suspend.log
+: 1423875080:0;journalctl -u acpid.service
+: 1423875217:0;clear
+: 1423875487:0;journalctl -u acpid.service
+: 1423876163:0;sudo nano /etc/acpi/handler.sh
+: 1423876176:0;sudo subl3 /etc/acpi/handler.sh
+: 1423876398:0;journalctl -u acpid.service
+: 1423882278:0;archey3
+: 1423883174:0;acpi_listen
+: 1423883186:0;i3statys
+: 1423883188:0;i3status
+: 1423888261:0;sensor
+: 1423888276:0;sensros
+: 1423888301:0;lm-sensros
+: 1423888303:0;lm-sensors
+: 1423888318:0;sensors
+: 1423888498:0;nano /etc/i3status.conf
+: 1423889108:0;restart
+: 1423889110:0;reboot
+: 1423889160:0;startx
+: 1423889188:0;acpi_listen
+: 1423892039:0;feh --bg-scale Pictures/Wallpapers/tron.jpg
+: 1423892087:0;cmatrix
+: 1423892090:0;clear
+: 1423892094:0;archery3
+: 1423892098:0;archey3
+: 1423892174:0;cmatrix
+: 1423892339:0;elinks
+: 1423892382:0;cmatrix
+: 1423892404:0;clear
+: 1423892406:0;cmatrix
+: 1423892443:0;clear
+: 1423892449:0;archey3
+: 1423892453:0;clear
+: 1423892456:0;archey3
+: 1423892517:0;cmatrix
+: 1423893155:0;pm-suspend
+: 1423893161:0;sudo pm-suspend
+: 1423924158:0;startx
+: 1423924203:0;sudo nano /etc/acpi/handler.sh
+: 1423937881:0;ssh mediaServer
+: 1423938082:0;pacaur -Syu
+: 1423938676:0;acpi_listen
+: 1423940752:0;lsblk
+: 1423940761:0;mount /dev/sdb1
+: 1423940765:0;mount /dev/sdb
+: 1423940788:0;mount /dev/sdb1 /run/media/joe/Drive
+: 1423940793:0;sudo mount /dev/sdb1 /run/media/joe/Drive
+: 1423940857:0;sudo mount /dev/sdb1 /mnt
+: 1423941772:0;pacaur -S autofs
+: 1423941969:0;sudo nano /etc/autofs/auto.master
+: 1423949903:0;sudo nano /etc/nsswitch.conf
+: 1423949943:0;sc-start autofs
+: 1423950011:0;sc-start autofs.service
+: 1423950074:0;htop
+: 1423950467:0;sudo nano /etc/nsswitch.conf
+: 1423950472:0;sudo nano /etc/autofs/auto.master
+: 1423950512:0;sc-restart autofs.service
+: 1423950516:0;sc-start autofs.service
+: 1423950526:0;systemctl
+: 1423950593:0;journalctl -u autofs.service
+: 1423950617:0;journalctl -f
+: 1423950642:0;lsblk
+: 1423950661:0;sudo umount /dev/sdb
+: 1423950665:0;sudo umount /dev/sdb1
+: 1423950673:0;lsblk
+: 1423950687:0;journalctl -u autofs
+: 1423950710:0;sc-stop autofs
+: 1423950718:0;sc-start autofs
+: 1423950728:0;journalctl -u autofs
+: 1423950754:0;sudo nano /etc/autofs/auto.master
+: 1423950773:0;sc-restart autofs
+: 1423950782:0;journalctl -f
+: 1423950889:0;mkdir /run/media/joe/usbstick
+: 1423950892:0;sudo mkdir /run/media/joe/usbstick
+: 1423950916:0;sudo mount /dev/sdb1 /run/media/joe/usbstick
+: 1423951013:0;sudo umount /dev/sdb1
+: 1423951041:0;nano /etc/fstab
+: 1423951103:0;sudo mount -a
+: 1423951166:0;showmount -e 192.168.0.8
+: 1423951171:0;nano /etc/fstab
+: 1423951182:0;ssh mediaServer
+: 1423951200:0;clear
+: 1423951252:0;showmount -e 192.168.0.8
+: 1423951265:0;mount -a
+: 1423951268:0;sudo mount -a
+: 1423951301:0;htop
+: 1423951735:0;acpi_listen
+: 1423951761:0;pactl set-sink-volume 0 +5%
+: 1423951771:0;pactl set-sink-volume 0 -5%
+: 1423951783:0;pactl set-sink-volume 0 +5%
+: 1423952982:0;clear
+: 1423963547:0;pacaur -S android-tools
+: 1423963583:0;pacaur -S android-udev
+: 1423963610:0;gpasswd -a joe adbusers
+: 1423963613:0;sudo gpasswd -a joe adbusers
+: 1423963703:0;adb devices
+: 1423965839:0;uname -r
+: 1423965961:0;acpi_listen
+: 1423967093:0;i3-msg 'rename workspace 1 to "1: www"'
+: 1423967107:0;i3-msg 'rename workspace 1 to "Main"'
+: 1423967121:0;i3-msg 'rename workspace "1: www" to "Main"'
+: 1423967437:0;startx
+: 1423971030:0;pacaur -S ttf-input
+: 1423971588:0;pacaur -S ttf-font-icons
+: 1423971817:0;clear
+: 1423972128:0;i3-msg 'rename workspace "Main" to "ï€ƒµ"'
+: 1423972300:0;i3-msg 'rename workspace "Chat" to "ï‚ƒ¦"'
+: 1423973184:0;clear
+: 1423973215:0;pacaur
+: 1423973259:0;clear
+: 1423973282:0;pacaur
+: 1423973307:0;clear
+: 1423973310:0;pacaur -s
+: 1423973992:0;pacaur -S libreoffice
+: 1423974412:0;pacaur -S hunspell-en
+: 1423974529:0;pacaur -S pygtk
+: 1423975206:0;pacaur -S  libQt5Widgets5
+: 1423975387:0;.config/sublime-text-3/Packages/User/ColorPicker/bin/linux_colorpicker.py 
+: 1423976918:0;clear
+: 1423977099:0;w
+: 1423977107:0;clear
+: 1423980108:0;cmatrix
+: 1423980114:0;archey
+: 1423980116:0;archey3
+: 1423980595:0;cmatrix
+: 1423980717:0;clea
+: 1423980721:0;archey3
+: 1423981347:0;pacaur -S oft-hermit
+: 1423981357:0;pacaur -S otf-hermit
+: 1423981480:0;archey3
+: 1423981544:0;clear
+: 1423981559:0;archey3
+: 1423981574:0;a
+: 1423981576:0;pacaur
+: 1423981613:0;pacaur -h
+: 1423981645:0;pacaur -s libreoffice
+: 1423981649:0;clear
+: 1423981661:0;archey3
+: 1423981725:0;acpi_listen
+: 1423981742:0;pm-hibernate
+: 1423981748:0;sudo pm-hibernate
+: 1424021540:0;startx
+: 1424027009:0;acpi_listen
+: 1424042194:0;pacaur -s Krusader
+: 1424042202:0;pacaur -s krusader-git
+: 1424042208:0;pacaur -S krusader-git
+: 1424050962:0;clear
+: 1424051873:0;ssh mediaServer
+: 1424052550:0;pacaur -Syu
+: 1424054538:0;xprop
+: 1424055780:0;startx
+: 1424056205:0;i3-save-tree --workspace ïƒ¤ƒ€  > ~/.i3/workspace-term.jsonx
+: 1424056381:0;exec
+: 1424056397:0;exec .local/share/applications/chrome-https___www.facebook.com_messages_vonnebutt.desktop 
+: 1424056567:0;htop
+: 1424056613:0;ls .local/share/applications
+: 1424056628:0;exec .local/share/applications/chrome-https___www.facebook.com_messages_vonnebutt.desktop
+: 1424056674:0;.local/share/applications/chrome-https___www.facebook.com_messages_vonnebutt.desktop
+: 1424056881:0;xprop
+: 1424057208:0;i3-msg 'rename workspace ï‚ƒ¦  toïƒ¯¡
+: 1424057213:0;i3-msg 'rename workspace ï‚ƒ¦  to ïƒ¯¡
+: 1424057231:0;i3-msg 'rename workspace "ï‚ƒ¦ " to "ïƒ¯¡"
+: 1424057245:0;i3-msg 'rename workspace "ïƒ¯¡"
+: 1424057247:0;clear
+: 1424057368:0;i3-save-tree --workspace 3 > ~/.i3/workspace-term.jsonx
+: 1424057394:0;i3-save-tree --workspace ïƒ¤ƒ€ to ~/.i3/workspace-term.jsonx
+: 1424057404:0;i3-save-tree --workspace ïƒ¤ƒ€ to ~/.i3/workspace-term.json
+: 1424057413:0;i3-save-tree --workspace ïƒ¤ƒ€  > ~/.i3/workspace-term.json
+: 1424057494:0;xprop
+: 1424057671:0;startx
+: 1424057849:0;i3-save-tree --workspace ïƒ¤ƒ€  > ~/.i3/workspace-term.json
+: 1424057892:0;i3-save-tree --workspace 1 > ~/.i3/workspace-1.json
+: 1424058024:0;startx
+: 1424058093:0;i3-save-tree --workspace 1 > ~/.i3/workspace-1.json
+: 1424058167:0;i3-save-tree --workspace 2 > ~/.i3/workspace-chat.json
+: 1424058325:0;i3-save-tree --workspace 3 > ~/.i3/workspace-term.json
+: 1424058432:0;startx
+: 1424060067:0;xprop
+: 1424060392:0;reboot
+: 1424098683:0;startx
+: 1424103756:0;xprop
+: 1424105354:0;pacaur -Syu
+: 1424105760:0;clear
+: 1424106564:0;pacaur -S gimp
+: 1424107958:0;pacaur -S mplayer
+: 1424108002:0;pacaur -S gst-libav
+: 1424108120:0;pacaur -S totem
+: 1424108201:0;pacaur -S ffmpeg
+: 1424108425:0;pacaur -S ffmpegthumbnailer
+: 1424108460:0;clear
+: 1424108484:0;mkdir .local/share/thumbnailers
+: 1424108500:0;sudo nano .local/share/thumbnailers/totem.thumbnailers
+: 1424108523:0;nautilus -q
+: 1424108608:0;mount -a
+: 1424108612:0;sudo mount -a
+: 1424108619:0;nautilus -q
+: 1424108638:0;htop
+: 1424108748:0;umount /run/media/joe/pluto
+: 1424108751:0;sudo umount /run/media/joe/pluto
+: 1424108770:0;lsof
+: 1424108776:0;fuser
+: 1424108780:0;fuser(1)
+: 1424108783:0;clear
+: 1424108786:0;sudo umount /run/media/joe/pluto
+: 1424108823:0;reboot
+: 1424109063:0;cd /run/media/joe/pluto
+: 1424109086:0;systemctl
+: 1424109176:0;showmount -e 192.168.0.8
+: 1424109221:0;journalctl -u rpc-statd
+: 1424109356:0;sc-start rpcbind.service
+: 1424109366:0;sc-start rpc-statd.service
+: 1424109370:0;systemctl
+: 1424109386:0;sudo mount -a
+: 1424109393:0;cd /run/media/joe/pluto
+: 1424109395:0;ls
+: 1424109404:0;sc-enable rpcbind.service
+: 1424109410:0;startx
+: 1424113942:0;pacaur -S pidgin
+: 1424114354:0;pacaur -Rns pidgin
+: 1424128111:0;startx
+: 1424139713:0;pacaur -Syu
+: 1424139937:0;ssh mediaServer
+: 1424150488:0;shutdown
+: 1424150493:0;sudo shutdown
+: 1424199774:0;startx
+: 1424206456:0;lsblk
+: 1424206577:0;pacaur -S udisks2
+: 1424206712:0;sudo nano /etc/polkit-1/rules.d/50-udisks.rules
+: 1424206851:0;pacaur -S gvfs
+: 1424206874:0;pacaur -S gvfs-afc
+: 1424206916:0;sc-start gvfs.service
+: 1424206923:0;sc-start gvfs
+: 1424207027:0;pcmanfm -d &
+: 1424207033:0;polkit.addRule(function(action, subject) {\
+  var YES = polkit.Result.YES;
+: 1424207052:0;sudo pcmanfm -d &
+: 1424207061:0;clear
+: 1424207064:0;sudo pcmanfm -d &
+: 1424207690:0;startx
+: 1424208305:0;ssh mediaServer
+: 1424215382:0;whoami
+: 1424215383:0;clear
+: 1424217008:0;pacaur -S pidgin
+: 1424217038:0;pacaur -s pidgin
+: 1424217125:0;pacaur -S skype4pidgin-svn
+: 1424218038:0;cd builds
+: 1424218072:0;curl -LO https://aur.archlinux.org/packages/sk/skype4pidgin-svn/skype4pidgin-svn.tar.gz
+: 1424218076:0;;s
+: 1424218077:0;ls
+: 1424218096:0;tar -xvf skype4pidgin-svn.tar.gz
+: 1424218103:0;cd skype4pidgin-svn
+: 1424218114:0;sudo vim PKGBUILD
+: 1424218121:0;vim PKGBUILD
+: 1424218261:0;md5sum Makefile.patch
+: 1424218287:0;md5 https://sync.dray.be/public/packages/skype_icons_empathy.tar.xz
+: 1424218293:0;md5sum  https://sync.dray.be/public/packages/skype_icons_empathy.tar.xz
+: 1424218301:0;curl -LO https://sync.dray.be/public/packages/skype_icons_empathy.tar.xz
+: 1424218311:0;md5sum skype_icons_empathy.tar.xz
+: 1424218388:0;makepkg -s
+: 1424218425:0;pacman -U skype4pidgin-svn-711-1-x86_64.pkg.tar.xz
+: 1424218428:0;sudo pacman -U skype4pidgin-svn-711-1-x86_64.pkg.tar.xz
+: 1424218624:0;pacaur -S telegram-purple-git
+: 1424218831:0;cd ~
+: 1424219635:0;pacaur -S pidgin-opensteamworks 
+: 1424231807:0;acpi_listen
+: 1424236641:0;clear
+: 1424236646:0;archey3
+: 1424239073:0;pacaur -S ttf-win7-fonts
+: 1424239107:0;pacaur -S ttf-ms-fonts
+: 1424239215:0;pacaur -S ttf-mac-fonts ttf-mac
+: 1424239267:0;cd builds
+: 1424239272:0;curl -LO https://aur.archlinux.org/packages/tt/ttf-mac-fonts/ttf-mac-fonts.tar.gz
+: 1424239279:0;tar -xvf ttf-mac-fonts.tar.gz
+: 1424239282:0;cd ttf-mac-fonts
+: 1424239286:0;makepkg -s
+: 1424239311:0;sudo pacman -U ttf-mac-fonts-1-7-any.pkg.tar.xz
+: 1424239368:0;cd ../..
+: 1424239371:0;cd builds
+: 1424239408:0;curl -LO https://aur.archlinux.org/packages/tt/ttf-mac/ttf-mac.tar.gz
+: 1424239429:0;tar -xvf ttf-mac.tar.gz
+: 1424239435:0;cd ttf-mac
+: 1424239441:0;makepkg -s
+: 1424240469:0;sc-suspend
+: 1424240474:0;systemctl suspend
+: 1424272731:0;startx
+: 1424294769:0;pacaur -S obs-studio-git
+: 1424295155:0;obs
+: 1424295293:0;pacaur -s vivaldi
+: 1424295313:0;pacaur -S vivaldi-snapshot
+: 1424300021:0;pacaur -Rns obs-studio-git
+: 1424300080:0;clear
+: 1424301276:0;nano .ssh/mediaServer/id_rsa.pub
+: 1424301285:0;subl3 .ssh/mediaServer/id_rsa.pub
+: 1424302793:0;acpi_listen
+: 1424302807:0;claer
+: 1424302809:0;clear
+: 1424303033:0;pacaur -S  florence
+: 1424303118:0;florence
+: 1424303129:0;florence -d
+: 1424303226:0;sudo glib-compile-schemas /usr/share/glib-2.0/schemas/ 
+: 1424303228:0;florence -d
+: 1424303398:0;htop
+: 1424304150:0;clear
+: 1424304285:0;pacaur -Syu
+: 1424304340:0;ssh mediaServer
+: 1424305050:0;adb
+: 1424305142:0;adb devices
+: 1424305168:0;adb device
+: 1424305171:0;adb devices
+: 1424306111:0;fastboot
+: 1424306179:0;adb devices
+: 1424306238:0;fastboot flash Downloads/openrecovery-twrp-2.8.5.1-grouper.img
+: 1424306250:0;fastboot flash recovery Downloads/openrecovery-twrp-2.8.5.1-grouper.img
+: 1424306709:0;adb reboot bootloader
+: 1424306761:0;tar -xvf Downloads/nakasi-lrx22g-factory-2291c36b.tgz
+: 1424306802:0;./nakasi-lrx22g/flash-all.sh
+: 1424306860:0;ls
+: 1424306864:0;cd nakasi-lrx22g
+: 1424306865:0;ls
+: 1424306876:0;./flash-all.sh
+: 1424307788:0;xprop
+: 1424307998:0;adb reboot bootloader
+: 1424308065:0;unzip
+: 1424308074:0;cd ../Downloads
+: 1424308081:0;unzip CF-Auto-Root-grouper-nakasi-nexus7.zip
+: 1424308084:0;ls
+: 1424308093:0;cd image
+: 1424308094:0;ls
+: 1424308103:0;cd ..
+: 1424308133:0;./root-linux.sh
+: 1424308144:0;chmod +x root-linux.sh
+: 1424308146:0;./root-linux.sh
+: 1424308854:0;adb reboot bootloader
+: 1424308874:0;adb shell cd
+: 1424308877:0;adb shell
+: 1424308881:0;adb devices
+: 1424308917:0;adb shell
+: 1424309106:0;adb push arch_20130626.mrom /data/local
+: 1424309272:0;adb shell
+: 1424309311:0;adb push arch_20130626.mrom /storage/sdcard0
+: 1424309460:0;adb reboot bootloader
+: 1424309525:0;adb push arch_20130626.mrom /storage/sdcard0/
+: 1424309902:0;pacaur -S btsync
+: 1424309973:0;btsync
+: 1424309979:0;cd ~
+: 1424310027:0;pacaur -S btsync-gui
+: 1424310084:0;btsync-gui
+: 1424310217:0;adb shell
+: 1424310463:0;adb reboot bootloader
+: 1424310542:0;pacaur -S screen
+: 1424310655:0;sudo screen /dev/ttyACM0 115200
+: 1424312245:0;ssh-copy-id -i .ssh/mediaServer/id_rsa.pub 192.168.0.13 
+: 1424312264:0;ssh 192.168.0.13
+: 1424312276:0;clear
+: 1424312350:0;ssh archNexus
+: 1424315417:0;sudo screen /dev/ttyACM0 115200
+: 1424315459:0;ssh archNexus
+: 1424316249:0;screeen
+: 1424316252:0;screen
+: 1424316269:0;sudo screen /dev/ttyACM0 115200
+: 1424317518:0;ssh archNexus
+: 1424327535:0;sudo shutdown
+: 1424360836:0;startx
+: 1424368466:0;archey3
+: 1424368640:0;pacaur
+: 1424368993:0;pacaur 
+: 1424368994:0;clear
+: 1424368997:0;archey3
+: 1424384564:0;archey -s
+: 1424384567:0;archey3 -s
+: 1424384776:0;clear
+: 1424384782:0;man archey3
+: 1424385740:0;pacaur -S jre7-openjdk-headless
+: 1424386148:0;pacaur -S gst-libav
+: 1424386257:0;pacaur -S gst-plugin-libde265 
+: 1424386504:0;pacaur -S gst-plugins-base
+: 1424386520:0;pacaur -S gst-plugins-good 
+: 1424386609:0;pacaur -S libde265
+: 1424386627:0;gst-plugins-ugly 
+: 1424386631:0;pacaur -S gst-plugins-ugly 
+: 1424386646:0;pacaur -S gst-plugins-bad
+: 1424388238:0;clear
+: 1424388241:0;ssh mediaServer$'\r'
+: 1424388244:0;ssh mediaServer
+: 1424388301:0;clear
+: 1424414713:0;sudo shutdown
+: 1424449423:0;startx
+: 1424449519:0;lsblk
+: 1424453796:0;cmatrix
+: 1424453823:0;clear
+: 1424463135:0;pacaur -Syu
+: 1424464328:0;lsblk
+: 1424464564:0;ssh mediaServer
+: 1424465155:0;sudo rm powerreport.html
+: 1424465164:0;ls
+: 1424465289:0;nautilus -q
+: 1424465407:0;sudo killall nautilus
+: 1424465474:0;sudo xkill
+: 1424465482:0;pacaur -S xkill
+: 1424467171:0;clear
+: 1424467361:0;pacaur -Rns splashtop-streamer
+: 1424467569:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1424467587:0;wget
+: 1424467601:0;pacaur -S wget
+: 1424467606:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1424467980:0;clear
+: 1424467988:0;ssh mediaServer
+: 1424469287:0;pacman -Qi xorg-
+: 1424469301:0;pacman -Qi xorg-bdftopcf
+: 1424469375:0;pacman -Ql google-chrome
+: 1424469425:0;pacsysclean
+: 1424469503:0;pacman -Qu
+: 1424470557:0;clear
+: 1424478054:0;acpi_listen
+: 1424489342:0;pacaur -S speedtest-cli
+: 1424489367:0;speedtest
+: 1424489371:0;speedtest-cli
+: 1424489421:0;ssh mediaServer
+: 1424489590:0;pacaur -S speedtest-cli-git
+: 1424490001:0;ssh mediaServer
+: 1424491154:0;clear
+: 1424518566:0;speedtest-cli
+: 1424519881:0;shutdown
+: 1424519884:0;sudo shutdown
+: 1424551200:0;startx
+: 1424557768:0;useradd sonarr
+: 1424557780:0;sudo useradd sonarr
+: 1424616759:0;startx
+: 1424620455:0;sensors
+: 1424629490:0;clear
+: 1424634660:0;nano /etc/modprobe.d/hid_apple.conf
+: 1424634817:0;sudo nano /etc/mkinitcpio.conf
+: 1424634872:0;acpi_listen
+: 1424634890:0;reboot
+: 1424634984:0;startx
+: 1424638125:0;shutdown
+: 1424638130:0;sudo shutdown
+: 1424693298:0;startx
+: 1424696845:0;ssh mediaServer
+: 1424703881:0;sensors
+: 1424703890:0;reboot
+: 1424703947:0;start
+: 1424703948:0;startx
+: 1424715465:0;nano .zshrc
+: 1424715481:0;exit
+: 1424715494:0;pacaur -Syu
+: 1424715764:0;clear
+: 1424717784:0;sudo shutdown
+: 1424719005:0;startx
+: 1424719328:0;ssh mediaServer
+: 1424724697:0;steam
+: 1424742880:0;pacaur -S dolphin-emu-qt-git
+: 1424743093:0;nano /tmp/pacaurtmp-joe/dolphin-emu-git/src/dolphin-emu/build/CMakeFiles/CMakeError.log
+: 1424743154:0;pacman -Rns $(pacman -Qtdq)
+: 1424743158:0;sudo pacman -Rns $(pacman -Qtdq)
+: 1424743183:0;pacaur -S cmake
+: 1424743195:0;pacaur -S dolphin-emu-qt-git
+: 1424743222:0;pacaur -S dolphin-emu-git
+: 1424743244:0;nano /tmp/pacaurtmp-joe/dolphin-emu-git/src/dolphin-emu/build/CMakeFiles/CMakeOutput.log
+: 1424743251:0;nano /tmp/pacaurtmp-joe/dolphin-emu-git/src/dolphin-emu/build/CMakeFiles/CMakeError.log
+: 1424743580:0;pacaur -S gcc
+: 1424743599:0;pacaur -S dolphin-emu-git
+: 1424753484:0;xset q
+: 1424753511:0;setterm -blank 0 -powerdown 0
+: 1424753579:0;sleep 1; xset dpms force off
+: 1424753589:0;xset s off
+: 1424754297:0;nano /etc/X11/xorg.conf.d
+: 1424754303:0;cd /etc/X11/xorg.conf.d
+: 1424754304:0;ls
+: 1424754426:0;xset -dpms
+: 1424754430:0;xset q
+: 1424754734:0;xscreensaver demo
+: 1424754743:0;xscreensaver-demo
+: 1424770119:0;dolphin
+: 1424770127:0;/bin/dolphin-emu
+: 1424770797:0;htop
+: 1424771312:0;clear
+: 1424781707:0;cd ~
+: 1424781710:0;ls
+: 1424781715:0;clear
+: 1424785893:0;sudo shutdown
+: 1424846837:0;startx
+: 1424958446:0;steam
+: 1424958806:0;xprop
+: 1424960242:0;steam
+: 1424966967:0;sudo shutdown
+: 1424990542:0;startx
+: 1424993221:0;xprop
+: 1425010977:0;gnome-session
+: 1425011016:0;nano .xinitrc
+: 1425011059:0;startx
+: 1425011313:0;htop
+: 1425011364:0;nano .xinitrc
+: 1425011379:0;htop
+: 1425011382:0;startx
+: 1425011427:0;nano .xinitrc
+: 1425011436:0;startx
+: 1425011494:0;nano .xinitrc
+: 1425011598:0;pacaur -Syu
+: 1425011971:0;pacaur -S lib32-alsa-plugins
+: 1425012291:0;nano /usr/bin/steam
+: 1425012340:0;sudo nano /usr/bin/steam
+: 1425012363:0;steam
+: 1425012378:0;sudo nano /usr/bin/steam
+: 1425012393:0;steam
+: 1425044670:0;bluetoothctl
+: 1425044675:0;bluectl
+: 1425044705:0;pacaur -S bluez bluez-utils
+: 1425044729:0;bluetoothctl
+: 1425044765:0;sudo modprobe btusb
+: 1425050610:0;pacaur -Syu
+: 1425052065:0;ssh archDigital
+: 1425052108:0;ssh digitalOcean
+: 1425052204:0;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs1JnJaZFQK57y0o9Y2WUWFgZLhjIaVzG8gq48U0V6t8929V0dbzaRxjxrnSZSLCwwM1G7fC+E9uqjpaqZABCC7AyNqUt2o/PCrGQqcfpdDYuWvw18Rb+HbvlXvnYqvdJttmZwVvQim5kmXIKOWrVOTpEA08eE5X9QBKi3+IbYdCJ+LdDSpXvUnJss9XuPtz3VAr5mLU35Y6pAjwUQAsbO5V4OWLh35DgJmW6fyN27xKB8pf8TNASIO1xxX/8IkYq94ZI/IxQ2tpmM7Hreh7hCxtwk5r2b2/UUpSOsI00zWQOGpvngewRnWW8nlaM/bTJeCtpU/FVqvFz1eQx9BGir JoeMBlair mediaServer
+: 1425052207:0;ssh digitalOcean
+: 1425052329:0;ssh digitalOcean lgopjuyfxlac
+: 1425052843:0;ssh 178.62.81.218
+: 1425052860:0;ssh root@178.62.81.218
+: 1425053777:0;ssh 178.62.81.218
+: 1425054860:0;clear
+: 1425054956:0;ssh-copy-id -i .ssh/mediaServer/id_rsa.pub 178.62.81.218
+: 1425054971:0;ssh digitalOcean
+: 1425055061:0;ssh 178.62.81.218
+: 1425055067:0;ssh digitalOcean
+: 1425055803:0;sudo shutdown
+: 1425101564:0;startx
+: 1425103916:0;i3-save-tree --workspace 2 > ~/.i3/workspace-chat.json
+: 1425103947:0;i3-save-tree --workspace 2:ïƒ¯¡ > ~/.i3/workspace-chat.json
+: 1425104087:0;startx
+: 1425104113:0;htop
+: 1425104201:0;i3-save-tree --workspace 2 > ~/.i3/workspace-chat.json
+: 1425104518:0;startx
+: 1425104669:0;i3-msg "workspace 2; append_layout i3/workspace-chat.json"
+: 1425104794:0;i3-msg "workspace 2; append_layout i3/workspace-term.json"
+: 1425104807:0;i3-msg "workspace 2; append_layout ~/i3/workspace-term.json"
+: 1425104816:0;i3-msg "workspace 2; append_layout .i3/workspace-term.json"
+: 1425104834:0;i3-msg "workspace 2; append_layout .i3/workspace-chat.json"
+: 1425104844:0;startx
+: 1425108394:0;ssh digitalOcean
+: 1425109584:0;clear
+: 1425109993:0;ssh mediaServer
+: 1425110064:0;pacaur -Syu
+: 1425112778:0;pip install dotfiles
+: 1425112843:0;pacaur -S dotfiles
+: 1425112903:0;dotfiles
+: 1425112998:0;dotfiles --add .i3status.conf
+: 1425113011:0;mkdir Dotfiles
+: 1425113014:0;dotfiles --add .i3status.conf
+: 1425113733:0;pacaur -S ranger
+: 1425113741:0;ranger
+: 1425113787:0;ranger -h
+: 1425113836:0;ranger --copy-config=all
+: 1425113842:0;ranger
+: 1425114371:0;pacaur -S caca-utils highlight atool w3m poppler-utils mediainfo
+: 1425114390:0;ranger
+: 1425114845:0;dotfiles -l
+: 1425114870:0;dotfiles -a .i3/
+: 1425114920:0;dotfiles -a .archey3.cfg
+: 1425114965:0;dotfiles -a .zsh_history
+: 1425114974:0;dotfiles -a .zshrc
+: 1425115007:0;dotfiles -s
+: 1425115070:0;dotfiles -l
+: 1425115472:0;mkdir git
+: 1425115478:0;cd git
+: 1425115501:0;git clone gitHub:JoeMBlair/dotfiles.git
+: 1425115718:0;dotfiles -l
+: 1425116166:0;cd ../Dotfiles
+: 1425116171:0;git commit
+: 1425116195:0;git config --global user.email "you@example.com"
+: 1425116213:0;git config --global user.email "joemichaelblair@gmail.com"
+: 1425116227:0;git config --global user.name "Joe Blair"
+: 1425116230:0;git commit
+: 1425116238:0;git status
+: 1425116566:0;git add *

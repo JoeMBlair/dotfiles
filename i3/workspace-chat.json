@@ -1,0 +1,129 @@
+// vim:ts=4:sw=4:et
+{
+    // stacked split container with 3 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "stacked",
+    "percent": null,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "geometry": {
+               "height": 726,
+               "width": 1280,
+               "x": 0,
+               "y": 74
+            },
+            "name": "Telegram",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^Telegram$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.333333333333333,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 726,
+                       "width": 446,
+                       "x": 0,
+                       "y": 74
+                    },
+                    "name": "joemblair - Skype™",
+                    "percent": 0.35,
+                    "swallows": [
+                       {
+                       "class": "^Skype$",
+                       "title": "^joemblair\\ \\-\\ Skype™$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 726,
+                       "width": 830,
+                       "x": 450,
+                       "y": 74
+                    },
+                    "name": "Skype - Chat",
+                    "percent": 0.65,
+                    "swallows": [
+                       {
+                       "class": "^Skype$",
+                       "instance": "^skype$",
+                       "window_role": "^ConversationsWindow$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.333333333333333,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 460,
+                       "width": 260,
+                       "x": 10,
+                       "y": 28
+                    },
+                    "name": "Hangouts",
+                    "percent": 0.35,
+                    "swallows": [
+                       {
+                       "class": "^Google\\-chrome\\-stable$",
+                       "instance": "^crx_nckgahadagoaajjgafhacjanaoiihapd$",
+                       //"title": "^Hangouts$",
+                       "window_role": "^pop\\-up$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 420,
+                       "width": 280,
+                       "x": 10,
+                       "y": 70
+                    },
+                    "name": "Hangouts - Chat",
+                    "percent": 0.65,
+                    "swallows": [
+                       {
+                       "class": "^Google\\-chrome\\-stable$",
+                       "instance": "^crx_nckgahadagoaajjgafhacjanaoiihapd$",
+                       "window_role": "^pop\\-up$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
