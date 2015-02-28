@@ -1358,3 +1358,20 @@
 : 1425116230:0;git commit
 : 1425116238:0;git status
 : 1425116566:0;git add *
+: 1425116572:0;git status
+: 1425116575:0;git commit
+: 1425116613:0;git push
+: 1425117164:0;cd ~
+: 1425117170:0;dotfiles -a .gtkrc-2.0
+: 1425117209:0;dotfiles -a .gitconfig 
+: 1425117221:0;dotfiles -a .dotfilesrc
+: 1425117900:0;dotfiles -a .config/ranger
+: 1425130988:0;startx
+: 1425135170:0;linux -u
+: 1425135190:0;uname -r
+: 1425139989:0;ssh mediaServer
+: 1425140048:0;cd Dotfiles
+: 1425140051:0;git status
+: 1425140064:0;git add *
+: 1425140065:0;git status
+: 1425140075:0;git add *
