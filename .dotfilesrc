@@ -5,5 +5,4 @@ ignore = [
     '*.swp',
     'README.md'
     ]
-prefix = .
 packages = ['config']
