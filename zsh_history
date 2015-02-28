@@ -1375,3 +1375,9 @@
 : 1425140064:0;git add *
 : 1425140065:0;git status
 : 1425140075:0;git add *
+: 1425140077:0;git status
+: 1425140084:0;git commit
+: 1425140106:0;git status
+: 1425140145:0;git add -A
+: 1425140149:0;git status
+: 1425140257:0;git add zsh_history
