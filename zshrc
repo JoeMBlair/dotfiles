@@ -1,7 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export PATH=$PATH:/bin
-export PATH=$PATH:$HOME/trash-cli
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -52,7 +50,7 @@ plugins=(git archlinux sublime sudo systemd
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -86,4 +84,4 @@ source $ZSH/oh-my-zsh.sh
 archey3
 export PATH=$PATH:/bin
 export PATH=$PATH:$HOME/trash-cli
-alias ls='ls --color=auto'
+export PATH=$PATH:$HOME/.bin

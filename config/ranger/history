@@ -9,12 +9,23 @@ mkdir Boop
 search 
 delete
 open_with e
-open_with 
 trash-list
 shell trash-list
 shell trash-restore
 cd 
-
 cd /
 cd /run/media/joe/pluto/Anime
 filter 
+cd /home/joe/.config/ranger/
+find D
+find ran
+shell unzip ranger-master.zip -d ranger-master/
+find .con
+cd /home/joe/.config/ranger/colorschemes/
+
+open_with 1
+open_with q
+open_with exract
+open_with extract
+open_with 
+open_with 2
