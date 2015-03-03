@@ -203,9 +203,9 @@ bar {
 exec --no-startup-id google-chrome-stable
 exec --no-startup-id subl3
 exec --no-startup-id skype
-exec --no-startup-id terminator
-exec --no-startup-id terminator --command="ssh pluto"
-exec --no-startup-id terminator --command="ranger"
+exec --no-startup-id urxvt
+exec --no-startup-id urxvt -hold -e ssh pluto
+exec --no-startup-id urxvt -hold -e ranger
 exec --no-startup-id telegram
 
 # Set Wallpaper

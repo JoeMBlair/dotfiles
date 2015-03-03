@@ -1,7 +1,6 @@
 shell set show_hidden true
 map DD shell mv -t /home/joe/.Trash %s
 map
-filter 
 find Dow
 find Doc
 rename 
@@ -18,3 +17,4 @@ cd
 
 cd /
 cd /run/media/joe/pluto/Anime
+filter 

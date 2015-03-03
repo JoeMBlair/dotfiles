@@ -1,10 +1,10 @@
-k:/home/joe/.vim
-o:/home/joe/.config/ranger
+h:/home/joe
+':/home/joe/Pictures/Screenshots
 p:/home/joe/Pictures
+k:/home/joe/.vim
+q:/home/joe
+v:/home/joe/Videos
 u:/home/joe/Documents
 d:/home/joe
-':/run/media
 3:/home/joe/.i3
-q:/home/joe
-h:/home/joe
-v:/home/joe/Videos
+o:/home/joe/.config/ranger
