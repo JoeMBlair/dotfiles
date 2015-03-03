@@ -81,4 +81,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 archey3
-
+export PATH=$PATH:/bin
+export PATH=$PATH:$HOME/trash-cli
