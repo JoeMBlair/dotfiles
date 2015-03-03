@@ -1,9 +1,10 @@
-d:/home/joe
-u:/home/joe/Documents
-h:/home/joe
-':/run/media
+k:/home/joe/.vim
 o:/home/joe/.config/ranger
-q:/home/joe
-v:/home/joe/Videos
 p:/home/joe/Pictures
+u:/home/joe/Documents
+d:/home/joe
+':/run/media
 3:/home/joe/.i3
+q:/home/joe
+h:/home/joe
+v:/home/joe/Videos
