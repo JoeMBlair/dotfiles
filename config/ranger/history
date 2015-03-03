@@ -1,0 +1,20 @@
+shell set show_hidden true
+map DD shell mv -t /home/joe/.Trash %s
+map
+filter 
+find Dow
+find Doc
+rename 
+rename desktop.jpg
+mkdir Boop
+search 
+delete
+open_with e
+open_with 
+trash-list
+shell trash-list
+shell trash-restore
+cd 
+
+cd /
+cd /run/media/joe/pluto/Anime

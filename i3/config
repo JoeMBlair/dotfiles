@@ -204,7 +204,7 @@ exec --no-startup-id google-chrome-stable
 exec --no-startup-id subl3
 exec --no-startup-id skype
 exec --no-startup-id terminator
-exec --no-startup-id terminator --command="ssh mediaServer"
+exec --no-startup-id terminator --command="ssh pluto"
 exec --no-startup-id terminator --command="ranger"
 exec --no-startup-id telegram
 
