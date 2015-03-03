@@ -1,10 +1,10 @@
 p:/home/joe/Pictures
-3:/home/joe/.i3
-v:/home/joe/Videos
 k:/home/joe/.vim
-u:/home/joe/Documents
-d:/home/joe
 o:/home/joe/.config/ranger
-h:/home/joe
+3:/home/joe/.i3
+u:/home/joe/Documents
+':/home/joe/Dotfiles
 q:/home/joe
-':/home/joe/Downloads
+h:/home/joe
+d:/home/joe
+v:/home/joe/Videos

@@ -3,7 +3,6 @@ ignore = [
     '.git',
     '.gitignore',
     '*.swp',
-    'README.md',
-    '__pycache__'
+    'README.md'
     ]
 packages = ['config']
