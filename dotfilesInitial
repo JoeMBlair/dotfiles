@@ -1,3 +1,3 @@
 #!/bin/bash
-ln -s dotfilesrc ~/.dotfilesrc
+ln -sf ~/Dotfiles/dotfilesrc ~/.dotfilesrc
 dotfiles -s
