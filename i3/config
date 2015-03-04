@@ -37,7 +37,9 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'Droid sans Mono- 10'"
+
+bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -sb '#C23B22' -fn 'Droid sans Mono- 10' " 
+
 
 # change focus
 bindsym $mod+j focus left
@@ -139,7 +141,7 @@ assign [instance="streaming_client"] → 5:
 
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10% #increase sound volume
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10% #increase sound volume 
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10% #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 

@@ -22,8 +22,8 @@
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^Terminator$"
-               // "instance": "^terminator$",
+               "class": "^URxvt$"
+               // "instance": "^URxvt$",
                // "title": "^joe\\@mars\\:\\ \\~$"
                }
             ],
@@ -37,13 +37,13 @@
                "x": 0,
                "y": 0
             },
-            "name": "joe@pluto: ~",
+            "name": "joe@mars: ~",
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^Terminator$"
-               // "instance": "^terminator$",
-               // "title": "^joe\\@pluto\\:\\ \\~$"
+               "class": "^URxvt$"
+               // "instance": "^URxvt$",
+               // "title": "^joe\\@mars\\:\\ \\~$"
                }
             ],
             "type": "con"
@@ -58,13 +58,13 @@
        "x": 0,
        "y": 0
     },
-    "name": "ranger",
+    "name": "i3-save-tree --workspace 6 > ~/.i3/workspace-term3.json",
     "percent": 0.5,
     "swallows": [
        {
-       "class": "^Terminator$"
-       // "instance": "^terminator$",
-       // "title": "ranger"
+       "class": "^URxvt$"
+       // "instance": "^URxvt$",
+       // "title": "^i3\\-save\\-tree\\ \\-\\-workspace\\ 6\\ \\>\\ \\~\\/\\.i3\\/workspace\\-term3\\.json$"
        }
     ],
     "type": "con"
