@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-archey3
+#archey3
 export PATH=$PATH:/bin
 export PATH=$PATH:$HOME/trash-cli
 export PATH=$PATH:$HOME/.bin

@@ -19,3 +19,4 @@ URxvt*color14: #fcaf3e
 URxvt*color15: #EEEEEC
 URxvt.scrollBar: false
 URxvt.font: xft:monaco:size=8
+urxvt.boldFont: xft:monaco:size=8
