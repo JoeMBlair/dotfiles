@@ -3,6 +3,7 @@ ignore = [
     '.git',
     '.gitignore',
     '*.swp',
-    'README.md'
+    'README.md',
+    'dotfilesInitial'
     ]
 packages = ['config']

@@ -1242,3 +1242,11 @@ class log(Command):
 
         pager = os.environ.get('PAGER', ranger.DEFAULT_PAGER)
         self.fm.run([pager, tmp.name])
+        
+class empty(Command):
+     """
+     :empty
+     Empties the trash directory ~/.Trash
+     """
+     def execute(self):
+         self.fm.run("trash-empty")
