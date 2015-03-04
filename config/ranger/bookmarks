@@ -1,11 +1,7 @@
-u:/home/joe/Documents
-o:/home/joe/.config/ranger
 3:/home/joe/.i3
-p:/home/joe/Pictures
-s:/run/media/joe/pluto
-k:/home/joe/.vim
-q:/home/joe
-d:/home/joe
-':/
-v:/home/joe/Videos
 h:/home/joe
+p:/run/media/joe/pluto
+':/
+D:/home/joe/Dotfiles
+r:/home/joe/.config/ranger
+d:/home/joe/Downloads
