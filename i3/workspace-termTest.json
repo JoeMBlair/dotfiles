@@ -1,33 +1,15 @@
 // vim:ts=4:sw=4:et
 {
-    "layout": "splitv",
-    "percent": 0.5,
-    "type": "con",
-    "nodes": [
-
-{
     // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
     "layout": "splith",
     "percent": 0.5,
     "type": "con",
     "nodes": [
         {
-            "geometry": {
-               "height": 378,
-               "width": 562,
-               "x": 0,
-               "y": 0
-            },
-            "name": "joe@mars: ~",
-            "percent": 0.5,
-            "swallows": [
-               {
-               "class": "^URxvt$"
-               }
-            ],
-            "type": "con"
-        },
-        {
+            "border": "normal",
+            "current_border_width": 2,
             "floating": "auto_off",
             "geometry": {
                "height": 378,
@@ -35,18 +17,46 @@
                "x": 0,
                "y": 0
             },
-            "name": "joe@mars: ~",
+            "name": "i3-save-tree --workspace 6 > ~/.i3/workspace-termTest.json",
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^URxvt$"
+               // "class": "^URxvt$",
+               "instance": "^urxvt$",
+               "title": "^joe\\@mars\\:\\ \\~$"
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 378,
+               "width": 562,
+               "x": 0,
+               "y": 0
+            },
+            "name": "joe@pluto: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^URxvt$",
+               "instance": "^urxvt$",
+               "title": "^joe\\@pluto\\:\\ \\~$"
+               // "transient_for": "^$"
                }
             ],
             "type": "con"
         }
     ]
-},
+}
+
 {
+    "border": "normal",
+    "current_border_width": 2,
     "floating": "auto_off",
     "geometry": {
        "height": 378,
@@ -54,15 +64,16 @@
        "x": 0,
        "y": 0
     },
-    "name": "i3-save-tree --workspace 6 > ~/.i3/workspace-term3.json",
+    "name": "ranger",
     "percent": 0.5,
     "swallows": [
        {
-       "class": "^URxvt$"
+       // "class": "^URxvt$",
+       "instance": "^urxvt$",
+       "title": "^ranger$"
+       // "transient_for": "^$"
        }
     ],
     "type": "con"
 }
 
-]
-}
