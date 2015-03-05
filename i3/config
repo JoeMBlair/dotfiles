@@ -125,7 +125,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 exec --no-startup-id "i3-msg 'workspace 1:; append_layout /home/joe/.i3/workspace-web.json'"
 exec --no-startup-id "i3-msg 'workspace 2:; append_layout /home/joe/.i3/workspace-chat.json'"
-exec --no-startup-id "i3-msg 'workspace 3:; append_layout /home/joe/.i3/workspace-term3.json'"
+exec --no-startup-id "i3-msg 'workspace 3:; append_layout /home/joe/.i3/workspace-term.json'"
 
 # Applications go to certain workspaces on startup
 assign [class="Google-chrome-stable" instance="Google-chrome-stable"] → 1:
