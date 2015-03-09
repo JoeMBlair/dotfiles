@@ -20,3 +20,13 @@ URxvt*color15: #EEEEEC
 URxvt.scrollBar: false
 URxvt.font: xft:monaco:size=8
 urxvt.boldFont: xft:monaco:size=8
+
+rofi.font: Aldrich 8 
+rofi.location: 3
+rofi.lines: 10
+rofi.fixed-num-lines: 10
+rofi.width: 500
+rofi.xoffset: 0
+rofi.yoffset: 18
+rofi.terminal: urxvt
+rofi-sidebar-mode: true
