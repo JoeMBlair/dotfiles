@@ -31,3 +31,6 @@ open_with 2
 cd /usr/local
 
 empty
+find teiler
+mkdir teiler
+find screenshot-
