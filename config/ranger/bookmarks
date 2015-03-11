@@ -1,9 +1,9 @@
-k:/home/joe/.ssh
-d:/home/joe/Downloads
-g:/home/joe/git
-p:/run/media/joe/pluto
-':/home/joe/git
 h:/home/joe
-r:/home/joe/.config/ranger
+p:/run/media/joe/pluto
+k:/home/joe/.ssh
 3:/home/joe/.i3
+d:/home/joe/Downloads
+r:/home/joe/.config/ranger
+g:/home/joe/git
 D:/home/joe/Dotfiles
+':/home/joe

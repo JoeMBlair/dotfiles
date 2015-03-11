@@ -5,6 +5,8 @@ ignore = [
     '*.swp',
     'README.md',
     'firstRun',
+    'syncMars',
+    'syncEarth',
     'sEarth/',
     'sMars/'
     ]

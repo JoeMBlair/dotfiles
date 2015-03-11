@@ -139,11 +139,15 @@ assign [instance="subl3"] → 4:
 assign [instance="plex.tv__web_app"] → 5:
 assign [instance="streaming_client"] → 5:
 
-
+workspace 1: output DVI-D-0
+workspace 2: output VGA-0
+workspace 3: output HDMI-0
+workspace 4: output HDMI-0
+workspace 5: output HDMI-0
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10% & killall -USR1 i3status #increase sound volume 
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10% & killall -USR1 i3status #decrease sound volume
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% & killall -USR1 i3status #increase sound volume 
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% & killall -USR1 i3status #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls

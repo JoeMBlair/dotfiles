@@ -17,9 +17,11 @@ URxvt*color12: #729FCF
 URxvt*color13: #AD7FA8
 URxvt*color14: #fcaf3e
 URxvt*color15: #EEEEEC
+URxvt*colorUL:  yellow
 URxvt.scrollBar: false
-URxvt.font: xft:monaco:size=8
-urxvt.boldFont: xft:monaco:size=8
+URxvt.font: xft:Monaco:pixelsize=12,style=regular 
+URxvt.boldFont: xft:Monaco:pixelsize=12,style=regular
+URxvt*fading:  30
 
 rofi.font: Aldrich 8 
 rofi.location: 3
