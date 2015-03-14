@@ -1,0 +1,5 @@
+#!/bin/bash
+rm ~/Dotfiles/i3/config
+rm ~/Dotfiles/i3status.conf
+ln ~/Dotfiles/sPluto/i3/config ~/Dotfiles/i3/
+ln ~/Dotfiles/sPluto/i3status.conf ~/Dotfiles/
