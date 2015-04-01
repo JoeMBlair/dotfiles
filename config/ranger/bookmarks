@@ -1,9 +1,9 @@
-h:/home/joe
 p:/run/media/joe/pluto
 k:/home/joe/.ssh
-3:/home/joe/.i3
 d:/home/joe/Downloads
-r:/home/joe/.config/ranger
+h:/home/joe
+3:/home/joe/.i3
 g:/home/joe/git
+r:/home/joe/.config/ranger
 D:/home/joe/Dotfiles
-':/home/joe
+':/var/lib/plex/Plex Media Server/Plug-ins

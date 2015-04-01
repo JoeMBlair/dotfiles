@@ -26,11 +26,14 @@ open_with 1
 open_with q
 open_with exract
 open_with extract
-open_with 
 open_with 2
 cd /usr/local
-
 empty
 find teiler
 mkdir teiler
 find screenshot-
+open_with 
+
+find nginx
+find ngi
+find plex

@@ -142,8 +142,8 @@ assign [instance="streaming_client"] → 5:
 
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +10% & killall -USR1 i3status #increase sound volume 
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10% & killall -USR1 i3status #decrease sound volume
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% & killall -USR1 i3status #increase sound volume 
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5% & killall -USR1 i3status #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
@@ -207,7 +207,7 @@ exec --no-startup-id google-chrome-stable
 exec --no-startup-id subl3
 exec --no-startup-id skype
 exec --no-startup-id urxvt 
-exec --no-startup-id urxvt -hold -e ssh pluto
+exec --no-startup-id urxvts
 exec --no-startup-id urxvt -hold -e ranger
 exec --no-startup-id telegram
 
