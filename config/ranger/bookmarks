@@ -1,11 +1,10 @@
-b:/home/joe/builds
+m:/media/mediaServer
 p:/run/media/joe/pluto
 d:/home/joe/Downloads
-r:/home/joe/.config/ranger
-h:/home/joe
+b:/home/joe/builds
+':/home/joe/Dotfiles/sPluto/i3
 D:/home/joe/Dotfiles
 3:/home/joe/.i3
-k:/home/joe/.ssh
-':/home/joe/Dotfiles/sEarth/config
+h:/home/joe
 g:/home/joe/git
-
+s:/home/joe/.ssh
