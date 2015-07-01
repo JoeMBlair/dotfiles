@@ -1,9 +1,10 @@
-h:/home/joe
+b:/home/joe/builds
 p:/run/media/joe/pluto
-k:/home/joe/.ssh
-3:/home/joe/.i3
 d:/home/joe/Downloads
 r:/home/joe/.config/ranger
-g:/home/joe/git
+h:/home/joe
 D:/home/joe/Dotfiles
-':/home/joe
+3:/home/joe/.i3
+k:/home/joe/.ssh
+':/home/joe/Dotfiles/sEarth/config
+g:/home/joe/git

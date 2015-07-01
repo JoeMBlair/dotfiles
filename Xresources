@@ -22,6 +22,7 @@ URxvt.scrollBar: false
 URxvt.font: xft:Monaco:pixelsize=12,style=regular 
 URxvt.boldFont: xft:Monaco:pixelsize=12,style=regular
 URxvt*fading:  30
+URxvt.urgentOnBell: True
 
 rofi.font: Aldrich 8 
 rofi.location: 3

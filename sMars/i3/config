@@ -193,7 +193,7 @@ bar {
 
     colors {
         background  #222222
-        statusline  #969696
+        statusline  #969696sssssssssssssssssssssssssssssssssssssssssssssssssssssssx
         separator   #C23B22
         focused_workspace   #e3634b  #C23B22 #ffffff
         active_workspace        #222222 #222222 #888888
@@ -204,7 +204,6 @@ bar {
 
 # Start these applications on boot
 exec --no-startup-id google-chrome-stable
-exec --no-startup-id subl3
 exec --no-startup-id skype
 exec --no-startup-id urxvt 
 exec --no-startup-id urxvt -hold -e ssh pluto

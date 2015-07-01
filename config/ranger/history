@@ -7,7 +7,6 @@ rename
 rename desktop.jpg
 mkdir Boop
 search 
-delete
 open_with e
 trash-list
 shell trash-list
@@ -29,8 +28,13 @@ open_with extract
 open_with 
 open_with 2
 cd /usr/local
-
 empty
 find teiler
 mkdir teiler
 find screenshot-
+open_with qq
+flat
+flat 1
+flat 2
+
+delete
