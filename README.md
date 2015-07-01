@@ -2,4 +2,5 @@
 All my dotfiles in a handy place
 
 # Installation
-run 'firstRun' after first clone of repo
+1. Run 'sync<Hostname>' after first clone of repo
+2. Run 'firstRun' after first clone of repo

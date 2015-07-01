@@ -4,4 +4,4 @@ rm ~/Dotfiles/i3status.conf
 rm ~/Dotfiles/config/ranger/bookmarks
 ln ~/Dotfiles/sEarth/i3/config ~/Dotfiles/i3/
 ln ~/Dotfiles/sEarth/i3status.conf ~/Dotfiles/
-ln ~/Dotfiles/sEarth/i3status.conf ~/config/ranger/
+ln ~/Dotfiles/sEarth/i3status.conf ~/Dotfiles/config/ranger/
