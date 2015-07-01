@@ -106,3 +106,4 @@ alias pacrmorphans='pacaur -Rs $(pacaur -Qtdq)'
 export PATH=$PATH:/bin
 export PATH=$PATH:$HOME/trash-cli
 export PATH=$PATH:$HOME/.bin
+export PATH=$HOME/bin:$PATH

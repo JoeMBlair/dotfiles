@@ -1,0 +1,7 @@
+#!/bin/bash
+rm ~/Dotfiles/i3/config
+rm ~/Dotfiles/i3status.conf
+rm ~/Dotfiles/config/ranger/bookmarks
+ln ~/Dotfiles/sPluto/i3/config ~/Dotfiles/i3/
+ln ~/Dotfiles/sPluto/i3status.conf ~/Dotfiles/
+ln ~/Dotfiles/sPluto/config/ranger/bookmarks /~Dotfiles/config/ranger/
