@@ -147,8 +147,8 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -10% & killall -USR1 i
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -dec 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -inc 10 # decrease screen brightness
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -211,7 +211,7 @@ exec --no-startup-id urxvt -hold -e ranger
 exec --no-startup-id telegram
 
 # Set Wallpaper
-exec feh --bg-scale Pictures/Wallpapers/tron.jpg
+exec feh --bg-scale Pictures/Wallpapers/zelda.jpg
 
 # All windows have 1 pixel border
 new_window normal
