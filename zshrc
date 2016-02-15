@@ -47,8 +47,7 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime sudo systemd 
-)
+plugins=(git sudo systemd tmux)
 
 # User configuration
 
@@ -101,9 +100,17 @@ alias pacimpl="pacaur -D --asdep"	# Mark one or more installed packages as non e
 alias paclsorphans='pacaur -Qdt'
 alias pacrmorphans='pacaur -Rs $(pacaur -Qtdq)'
 
+#Open command in new tmux window horizontal
+#tsh() { tmux split-window -v "$*"; } 
 
-#archey3
+#Open command in new tmux window vertical
+#tsv() { tmux split-window -h "$*"; } 
+
 export PATH=$PATH:/bin
 export PATH=$PATH:$HOME/trash-cli
 export PATH=$PATH:$HOME/.bin
 export PATH=$HOME/bin:$PATH
+export TERM=xterm-256color
+
+#Adds colour to grep command
+alias grep='grep --color=auto'
