@@ -1,5 +1,6 @@
 .*.un~
 *.pyo
+__pycache__/
 /i3status.conf
 i3/config
 config/ranger/history

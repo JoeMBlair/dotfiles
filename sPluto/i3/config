@@ -9,13 +9,13 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Aldrich, Icons 8
+font pango: Aldrich, Icons 12
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -96,10 +96,10 @@ bindsym $mod+a focus parent
 bindsym $mod+x [urgent=latest] focus
 
 # switch to workspace
-bindsym $mod+1 workspace 1:
-bindsym $mod+2 workspace 2:
-bindsym $mod+3 workspace 3:
-bindsym $mod+4 workspace 4:
+bindsym $mod+3 workspace 1:
+#bindsym $mod+2 workspace 2:
+bindsym $mod+1 workspace 3:
+bindsym $mod+2 workspace 4:
 bindsym $mod+5 workspace 5:
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
@@ -108,10 +108,10 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1:
-bindsym $mod+Shift+2 move container to workspace 2:
-bindsym $mod+Shift+3 move container to workspace 3:
-bindsym $mod+Shift+4 move container to workspace 4:
+bindsym $mod+Shift+3 move container to workspace 1:
+#bindsym $mod+Shift+2 move container to workspace 2:
+bindsym $mod+Shift+1 move container to workspace 3:
+bindsym $mod+Shift+2 move container to workspace 4:
 bindsym $mod+Shift+5 move container to workspace 5:
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
@@ -124,8 +124,6 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # On boot set up layout
 
-exec --no-startup-id "i3-msg 'workspace 1:; append_layout /home/joe/.i3/workspace-web.json'"
-exec --no-startup-id "i3-msg 'workspace 2:; append_layout /home/joe/.i3/workspace-chat.json'"
 exec --no-startup-id "i3-msg 'workspace 3:; append_layout /home/joe/.i3/workspace-term.json'"
 
 # Applications go to certain workspaces on startup
@@ -138,6 +136,8 @@ assign [instance="Steam"] → 2:
 assign [instance="subl3"] → 4:
 assign [instance="plex.tv__web_app"] → 5:
 assign [instance="streaming_client"] → 5:
+assign [instance="CrashPlan"] → 4:
+
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% & killall -USR1 i3status #increase sound volume 
@@ -201,11 +201,10 @@ bar {
 }
 
 # Start these applications on boot
-exec --no-startup-id google-chrome-stable
 exec --no-startup-id urxvt 
 exec --no-startup-id urxvt
 exec --no-startup-id urxvt -hold -e ranger
-
+exec --no-startup-id CrashPlanDesktop
 # Set Wallpaper
 exec feh --bg-scale Pictures/Wallpapers/tron.jpg
 

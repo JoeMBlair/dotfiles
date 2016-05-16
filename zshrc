@@ -1,16 +1,18 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+  export ZSH=/home/joe/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="mortalscumbag"
-#ZSH_THEME="steeef"
 ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -28,7 +30,7 @@ ZSH_THEME="ys"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -51,7 +53,7 @@ plugins=(git sudo systemd tmux)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:"
+  export PATH="/home/joe/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl::/bin:/home/joe/trash-cli:/home/joe/.bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -109,7 +111,8 @@ alias pacrmorphans='pacaur -Rs $(pacaur -Qtdq)'
 export PATH=$PATH:/bin
 export PATH=$PATH:$HOME/trash-cli
 export PATH=$PATH:$HOME/.bin
-export PATH=$HOME/bin:$PATH
+export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/.gem/ruby/2.3.0/bin
 export TERM=xterm-256color
 
 #Adds colour to grep command

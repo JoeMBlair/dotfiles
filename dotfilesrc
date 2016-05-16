@@ -8,8 +8,8 @@ ignore = [
     'syncMars',
     'syncEarth',
     'syncPluto',
-    'sEarth/',
-    'sMars/'
-    'sPluto/'
+    'sEarth',
+    'sMars'
+    'sPluto'
     ]
 packages = ['config']
